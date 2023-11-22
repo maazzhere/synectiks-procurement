@@ -1,0 +1,155 @@
+.form-card {
+    width: 69.375rem;
+    height: 21.375rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: var(--White-Color, #fff);
+    /* border: 1px solid black; */
+  }
+  
+  /* first-row */
+  .first-row{
+    display: flex;
+    align-items: center;
+    padding-top: 1.88rem;
+    column-gap: 3.62rem;
+    padding-left: 1.69rem;
+    /* border: 1px solid red; */
+  }
+  .first-row label{
+    font-size: 1.125rem;
+    width: 8rem;
+    /* border: 1px solid red; */
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--grey);
+  }
+  .input-class{
+    border: 0px;
+    outline: 0px;
+    width: 13.8125rem;
+height: 3.5625rem;
+flex-shrink: 0;
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+  }
+  .label-card{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1.8rem;
+    row-gap: 1rem;
+
+  }
+  .location-card{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1.8rem;
+    row-gap: 1rem;
+
+  }
+  .note-card{
+    display: flex;
+    flex-direction: column;
+    column-gap: 1.8rem;
+    row-gap: 1rem;
+  }
+  .text-area{
+    width: 30.3125rem;
+height: 8.125rem;
+flex-shrink: 0;
+border-radius: 0.875rem;
+background: #F5F5F5;
+border: 0px;
+  }
+  /* .first-row select{
+    border: 0px;
+    outline: 0px;
+    width: 17.31638rem;
+    padding: 0rem 1rem;
+  height: 3.5625rem;
+  flex-shrink: 0;
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+  } */
+  .first-row select option{
+    color: #000;
+  
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+  
+  /* second-row */
+  .second-row{
+    display: flex;
+    align-items: top;
+    padding-top: 1.19rem;
+    column-gap: 3.62rem;
+    padding-left: 1.69rem;
+    /* border: 1px solid red; */
+  }
+  .second-row label{
+    font-size: 1.125rem;
+    width: 8rem;
+    /* border: 1px solid red; */
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--grey);
+  }
+  .second-row input{
+    border: 0px;
+    outline: 0px;
+    width: 17.31638rem;
+  height: 3.5625rem;
+  flex-shrink: 0;
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+  }
+  /* .second-row select{
+    border: 0px;
+    outline: 0px;
+    width: 17.31638rem;
+    padding: 0rem 1rem;
+  height: 3.5625rem;
+  flex-shrink: 0;
+  background-color: #F5F5F5;
+  border-radius: 0.5rem;
+  } */
+  .second-row select option{
+    color: #000;
+  
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  }
+  
+  /* third-row */
+  .third-row{
+    display: flex;
+    align-items: center;
+    padding-top: 1.19rem;
+    column-gap: 3.62rem;
+    padding-left: 1.69rem;
+    /* border: 1px solid red; */
+  }
+  .third-row label{
+    font-size: 1.125rem;
+    width: 8rem;
+    /* border: 1px solid red; */
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: var(--grey);
+  }
+  .third-row input{
+    border: 0px;
+    width: 50rem;
+  height: 6.75rem;
+  flex-shrink: 0;
+  border-radius: 0.875rem;
+}
+  
